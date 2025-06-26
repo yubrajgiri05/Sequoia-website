@@ -1,0 +1,268 @@
+.hero-v22{
+  position: relative;
+}
+.hero-v22 .item .slide-bg,
+.hero-v22 {
+  height: 620px;
+  border-radius: 50px;
+
+}
+@media (min-width: 992px){
+  .hero-v22 .item .slide-bg,
+  .hero-v22 {
+    height: 720px;
+  }    
+}
+.hero-v22.hero-subpage .item ,
+.hero-v22.hero-subpage .item .slide-bg,
+.hero-v22.hero-subpage {
+  height: 600px;
+  border-radius: 50px;
+}
+/* Slider Zoom Effect */
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(1, 1);
+  }
+
+  to {
+    -webkit-transform: scale(1.2, 1.2);
+  }
+}
+
+@-moz-keyframes zoom {
+  from {
+    -moz-transform: scale(1, 1);
+  }
+
+  to {
+    -moz-transform: scale(1.2, 1.2);
+  }
+}
+
+@-o-keyframes zoom {
+  from {
+    -o-transform: scale(1, 1);
+  }
+
+  to {
+    -o-transform: scale(1.2, 1.2);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1, 1);
+  }
+
+  to {
+    transform: scale(1.2, 1.2);
+  }
+}
+.hero-v22 .item .slide-bg,
+.hero-v22.hero-subpage .item .slide-bg {
+  -webkit-animation: none;
+  animation: none;
+}
+.hero-v22 .item .caption-holder {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+}
+.hero-v22 .item .caption-holder .caption-holder-text{
+  position: relative;
+  z-index: 2;
+}
+.hero-v22 .item .caption-holder h1 {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 25px;
+  text-shadow: 4px 6px 13px rgba(0,0,0,0.8);
+}
+.hero-v22 .item .caption-holder h1 span.over {
+  font-size: 20px;
+  font-weight: 600
+}
+.hero-v22.hero-subpage.banner h1{
+  font-size: 36px;
+}
+.hero-v22 .item .caption-holder p {
+  padding-right: 20%;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+  text-shadow: 4px 6px 13px rgba(0,0,0,0.8);
+}
+@media (min-width: 768px){
+  .hero-v22 .item .caption-holder h1 {
+    font-size: 72px;
+  }
+  .hero-v22.hero-subpage.banner h1{
+    font-size: 64px;
+  } 
+}
+.hero-v22 .table-cell {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-v22 .carousel .carousel-indicator {
+  position: absolute;
+  top: auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+}
+.hero-v22 .carousel .carousel-indicator .carousel-indicators {
+  position: relative;
+  display: table;
+  margin: 0 auto;
+  left: auto;
+  width: auto;
+  z-index: 2;
+}
+.hero-v22 .carousel .carousel-indicators li {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin: 10px;
+  border: 1px solid #a06637;
+  border-radius: 0;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+  border-radius: 50%;
+}
+.hero-v22 .carousel .carousel-indicators li.active {
+  opacity: 1;
+  background: #a06637;
+}
+.slide-down {
+  opacity: 0;
+  -webkit-animation: slide-down 1s cubic-bezier(0.4, 0, 0.2, 1) 500ms forwards;
+}
+.slide-up {
+  opacity: 0;
+  -webkit-animation: slide-up 1s cubic-bezier(0.4, 0, 0.2, 1) 500ms forwards;
+}
+.slide-in {
+  opacity: 0;
+  -webkit-animation: slide-in 2s cubic-bezier(0.4, 0, 0.2, 1) 500ms forwards;
+  -webkit-animation-delay: var(--delay, 0s);
+}
+@-webkit-keyframes slide-down {
+    0% { -webkit-transform: translateY(-200%); opacity: 1 }
+    100% { -webkit-transform: translateY(0); opacity: 1  }
+}
+@-webkit-keyframes slide-up {
+    0% { -webkit-transform: translateY(100%); opacity: 1 }
+    100% { -webkit-transform: translateY(0); opacity: 1  }
+}
+@-webkit-keyframes slide-in {
+    0% { -webkit-transform: translateX(100%); opacity: 0 }
+    100% { -webkit-transform: translateX(0); opacity: 1  }
+}
+.hero-v22.hero-subpage .caption-holder .slide-up .btn-theme{
+  margin: 10px;
+}
+.hero-v22.hero-subpage .caption-holder .slide-up .btn-white.btn-theme{
+  margin: 10px;
+}
+@media (min-width:576px){
+  .hero-v22.hero-subpage .caption-holder .slide-up .btn-white.btn-theme{
+    margin-left: 20px;
+  }
+}
+.hero-v22 .spacer {
+	position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.hero-v22 .spacer .spacer-inner{
+	height: 40px;
+}
+@media (min-width: 768px) {
+	.hero-v22 .spacer .spacer-inner{
+		height: 100px;
+	}	
+}
+@media (min-width: 1200px) {
+	.hero-v22 .spacer .spacer-inner{
+		height: 125px;
+	}	
+}
+@media (min-width: 1800px) {
+	.hero-v22 .spacer .spacer-inner{
+		height: 185px;
+	}	
+}
+
+.hero-v22.hero-subpage {
+  border-bottom: 10px solid #E96520;
+}
+
+/* Bootstrap Fade In out Animation */
+/* YOUR CSS simplified */  
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        display: block;
+        height: auto;
+        width: 100%;
+        line-height: 1;
+    }
+
+/*Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
+  CSS from:       http://codepen.io/transportedman/pen/NPWRGq
+  and:            http://stackoverflow.com/questions/18548731/bootstrap-3-carousel-fading-to-new-slide-instead-of-sliding-to-new-slide
+  Inspired from:  http://codepen.io/Rowno/pen/Afykb*/
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}    
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}    
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}    
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}    
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+  Need to override the 3.3 new styles for modern browsers & apply opacity*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
