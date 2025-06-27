@@ -1,6 +1,5 @@
 /* start of about sequoia banner */
 
-.sequoia-about-banner,
 .sequoia-values-banner {
   min-height: 90vh;
   width: 100%;
@@ -15,7 +14,7 @@
 /* end of about sequoia banner */
 
 .sequoia-values-banner {
-  height: 70vh;
+ min-height: 80vh;
 }
 .sa h3:before {
   content: "";
@@ -45,135 +44,73 @@ h4:before {
 .image-wrapper-bottom img {
   border-bottom-right-radius: 50%;
 }
-.v-center-wrap {
-  height: 100%;
-  display: table;
-  width: 100%;
-}
-.v-center-content {
-  display: table-cell;
-  vertical-align: middle;
-}
 
-.sequoia-story-banner,
-.sequoia-process-banner {
-  min-height: 70vh;
-  width: 100%;
-}
+
 .height-90vh {
   height: 60vh;
 }
-.values-rectangle {
+
+/* .sequoia values css */
+
+.values-rectangle-border {
+  border: 4px solid white;
+  border-right: none;
   width: 85%;
   border-top-left-radius: 30% 100%;
   border-bottom-left-radius: 30% 100%;
-  height: 70%;
-  background-color: #ba642e;
-  opacity: 0.9;
+  height: 75%;
+  background-color: transparent;
   top: 50%;
   right: 0;
   position: absolute;
   transform: translateY(-50%);
   z-index: 2;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 20px 12%;
+  padding: 10px 0 10px 10px;
 }
-.values-rectangle-border {
-  width: 87%;
-  border-top-left-radius: 32% 100%;
-  border-bottom-left-radius: 32% 100%;
-  height: 75%;
-  background: transparent;
-  border: 3px solid white;
-  position: absolute;
-  top: 50%;
-  right: -15px;
-  transform: translateY(-50%);
-  z-index: 4;
+.values-rectangle {
+  background-color: #ad4c25;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 30% 100%;
+  border-bottom-left-radius: 30% 100%;
+  padding: 0px 40px 0 110px;
 }
+
 .values-circle {
   background: url("../images/man.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
-  width: 200px;
+  height: 182px;
+  width: 186px;
   border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 15%;
-  transform: translate(-50%, -50%);
-  z-index: 5;
 }
 .values-circle-border {
-  height: 220px;
-  width: 220px;
+  height: 210px;
+  width: 210px;
   border-radius: 50%;
   background: transparent;
-  border: 3px solid white;
+  border: 4px solid white;
+ border-radius: 50%;
   position: absolute;
   top: 50%;
   left: 15%;
   transform: translate(-50%, -50%);
-  z-index: 6;
+  z-index: 5; 
+  padding: 10px;
 }
 
-.font-lg {
-  font-size: 3.5rem;
-  font-weight: 700;
-}
-.font-md {
-  font-size: 3rem;
-  font-weight: 600;
-}
-.font-sm {
-  font-size: 2.5rem;
-  font-weight: 500;
-}
-.sequoia-team-rectangle {
-  height: 400px;
-  width: 90%;
-  padding-left: 10%;
-  background: #f46523;
-  border-top-left-radius: 200px;
-  position: relative;
-}
-.sequoia-team-rectangle-border {
-  height: 410px;
-  width: 104%;
-  background: transparent;
-  border: 2px solid #f46523;
-  border-bottom-color: transparent;
-  border-right-color: transparent;
-  border-top-left-radius: 210px;
-  position: absolute;
-  top: 49%;
-  left: 49%;
-  transform: translate(-50%, -50%);
-}
+/* .sequoia value css end */
 
-.people-img-wrapper img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-.odd-color {
-  background-color: #640e0d;
-  color: #640e0d;
-}
-.odd-border-color {
-  border-color: #640e0d;
-  border-bottom-color: transparent;
-  border-right-color: transparent;
-}
 .people-name {
   font-size: 3rem;
   font-weight: 600;
+}
+.people-title {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 10px;
+  color: #ad4c25;
 }
 .people-name::before {
   content: "";
@@ -184,52 +121,82 @@ h4:before {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  margin: -10px 0;
+  margin: -5px 0;
   border-radius: 24px;
+}
+.sequoia-team-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.sequoia-team-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.4s ease;
+}
+
+.img-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.sequoia-team-img:hover .img-hover {
+  opacity: 1;
+}
+
+.sequoia-team-img:hover .img-front {
+  opacity: 0;
+}
+.team-wrapper:hover .people-name {
+  color: #6e1011;
+}
+.team-wrapper:hover .people-title {
+  color: #6e1011;
+}
+.team-wrapper:hover .people-name::before {
+  background-color: #6e1011;
 }
 
 /* Media query for screens from 426px width (typical mobile screens) */
 @media (max-width: 426px) {
-  .image-wrapper-top img {
-    border-top-left-radius: 0;
-  }
-  .image-wrapper-bottom img {
-    border-bottom-right-radius: 0;
-  }
-  .sequoia-story-banner,
-  .sequoia-process-banner {
-    min-height: 110vh;
-  }
+ 
 
   .values-circle {
-    top: 21%;
-    left: 50%;
+    width: 139px;
+    height: 139px;
   }
-  
+
   .values-circle-border {
-    top: 21%;
-    left: 50%;
+    width: 165px;
+    height: 165px;
+    top: 13%;
+    left: 49%;
   }
 
   .values-rectangle {
-    border-top-left-radius: 200px;
+    height: 100%;
+    border-top-left-radius: 196px;
     border-top-right-radius: 200px;
     border-bottom-left-radius: 0%;
-    padding: 50px 6% 20px 6% !important;
-    top: 60%;
-    left: 7.5%;
-    text-align: center;
-    height: 76%;
-    overflow: hidden;
+    padding: 30px 15px 10px 15px;
+
   }
   .values-rectangle-border {
     border-top-left-radius: 196px;
     border-top-right-radius: 200px;
     border-bottom-left-radius: 0%;
-    top: 60%;
+    border: 4px solid white;
+    padding-right: 10px;
+    top: 55%;
     left: 5.5%;
-    height: 78%;
+    height: 87%;
     width: 89%;
+  }
+  .values-rectangle h2, p{
+    text-align: center;
   }
   .sequoia-values-banner {
     min-height: 120vh;
@@ -237,21 +204,17 @@ h4:before {
   .position-absolute {
     width: 90%;
   }
-  
+  ss-content-title {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
 }
 
 @media (max-width: 768px) {
-  .values-rectangle {
-    padding: 20px 12% 20px 16%;
-  }
-  .values-rectangle-border {
-    right: -4px;
-  }
+  
+ 
   .ss-content-title {
-    padding-left: 36px !important;
-    padding-right: 36px !important;
-  }
-  .sequoia-team-rectangle-wrapper {
-    padding-left: 30px;
+    padding-left: 30px ;
+    padding-right: 30px;
   }
 }

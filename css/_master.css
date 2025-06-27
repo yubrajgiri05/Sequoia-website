@@ -1,41 +1,23 @@
 /* **** FONT OPTIONS **** */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@100;200;300;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open Sans:wght@400;500;700&family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=BioRhyme:wght@200..800&family=Gabarito:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 html{ overflow-x: hidden;}
 body{ overflow-x: hidden;}
 
-h1,h2,h3,h4,h5,h6 {font-family: 'Poppins', sans-serif; font-weight:700}
+h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif; font-weight:900}
 h2 {margin-top: 0;}
-p,ul,ol {font-family: 'Open Sans', sans-serif;font-size:16px;font-weight: normal;line-height: 26px;color: #555;}
-p.lead {font-family: 'Open Sans', sans-serif; font-weight:500; font-size:18px; color:#1c476a; font-style:italic}
+p,ul,ol {font-family: "Montserrat", sans-serif;font-size:16px;font-weight: normal;line-height: 26px;color: #555;}
+p.lead, span.lead {font-family: "Montserrat", sans-serif; font-weight:500; font-size:24px; color:#dc5126; display: block; }
 
-h1 a {font-family: 'Poppins', sans-serif;}
-h2 a {font-family: 'Poppins', sans-serif;}
-h3 a {font-family: 'Poppins', sans-serif;}
-h4 a {font-family: 'Poppins', sans-serif;}
-h5 a {font-family: 'Poppins', sans-serif;}
-h6 a {font-family: 'Poppins', sans-serif;}
-p.lead a {font-family: 'Open Sans', sans-serif;}
-p a {font-family: 'Open Sans', sans-serif;}
 
-.h2-title {
-  font-size: 55px;
-  color: #212121;
-  text-transform: uppercase;
-}
-.h2-title span.over {
-  font-size: 35px;
-  color: #212121;
-  font-weight: 100;
-  text-transform: uppercase;
-  line-height: 100%;
-  display: block;
-}
-
+h1 a {font-family: "Montserrat", sans-serif;}
+h2 a {font-family: "Montserrat", sans-serif;}
+h3 a {font-family: "Montserrat", sans-serif;}
+h4 a {font-family: "Montserrat", sans-serif;}
+h5 a {font-family: "Montserrat", sans-serif;}
+h6 a {font-family: "Montserrat", sans-serif;}
+p.lead a {font-family: "Montserrat", sans-serif;}
+p a {font-family: "Montserrat", sans-serif;}
 
 
 /*
@@ -54,18 +36,18 @@ h6 {font-size: 20px;}
 */
 
 /*
-    PRIMARY / blue:         #1c476a
-    SECONDARY / bright-purple ##1c476a
+    PRIMARY / blue:         #ad4c25
+    SECONDARY / bright-purple ##ad4c25
     DARK GRAY:      #353739
     MEDIUM GRAY:    #666666     (TEXT)
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Montserrat", sans-serif;
 */
 
 
 h1 {
-  font-size: 85px;
+  font-size: 58px;
   color: #ffffff;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 @media (max-width: 768px) { /* Adjust the breakpoint as needed for your mobile devices */
     h1 {
@@ -76,27 +58,27 @@ h1  span.over {
   font-size: 30px;
   color: #ffffff;
   font-weight: 100;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 h2 {
-    font-size: 55px;
+    font-size: 40px;
     color: #212121;
-    text-transform: uppercase;
+    text-transform: capitalize;
   }
 
   /* Media query for mobile devices */
   @media (max-width: 767px) {
     h2 {
-      font-size: 40px; /* Smaller font size for mobile */
+      font-size: 28px; /* Smaller font size for mobile */
     }
   }
 
 h2 span.over {
-  font-size: 35px;
+  font-size: 28px;
   color: #212121;
   font-weight: 100;
-  text-transform: uppercase;
+  text-transform: capitalize;
   line-height: 100%;
   display: block;
 }
@@ -105,19 +87,19 @@ h2 span.under {
   font-size: 35px;
   color: #212121;
   font-weight: 100;
-  text-transform: uppercase;
+  text-transform: capitalize;
   line-height: 100%;
   display: block;
 }
 h3 {
-  font-size: 38px;
+  font-size: 32px;
   font-weight: 900;
 }
 h3 span.over {
   font-size: 20px;
   color: #212121;
   font-weight: 100;
-  text-transform: uppercase;
+  text-transform: capitalize;
   line-height: 100%;
   display: block;
 }
@@ -126,17 +108,17 @@ h3 span.under {
   font-size: 20px;
   color: #212121;
   font-weight: 100;
-  text-transform: uppercase;
+  text-transform: capitalize;
   line-height: 100%;
   display: block;
 }
 h4 {
-  font-size:29px;
+  font-size:28px;
 }
 h4 span.over {
   font-size: 16px;
   font-weight: 100;
-  text-transform: uppercase;
+  text-transform: capitalize;
   display: block;
   color: #212121;
 }
@@ -144,7 +126,7 @@ h4 span.under {
   padding-top: 5px;
   font-size: 16px;
   font-weight: 100;
-  text-transform: uppercase;
+  text-transform: capitalize;
   display: block;
   color: #212121;
 }
@@ -165,26 +147,28 @@ p.xs {font-size:0.75em}
 
 
 
-a {font-family: 'Open Sans', sans-serif;color:#1c476a}
+a {font-family: "Montserrat", sans-serif;color:#ad4c25}
 a:hover {color:#000}
-.over {font-family: 'Open Sans', sans-serif;color:#CCCCCC; text-transform: uppercase;display:block;}
+.over {font-family: "Montserrat", sans-serif;color:#CCCCCC; text-transform: uppercase;display:block;}
 
 .decoration-primary, .decoration-primary-h2  {display:block;width:32px;height:5px;margin-top:24px;margin-bottom:24px;background-color:#CCCCCC}
 .decoration-primary-h3, .decoration-purple-h3 {display:block;width:50px;height:2px;margin-top:16px;margin-bottom:16px;background-color:#CCCCCC}
 
-.bg-primary {background:#1c476a}
-.bg-secondary {background:#a06637}
+.bg-primary {background:#ad4c25}
+.bg-secondary {background:#6e1110}
+.bg-accent {background:#dc5126}
 .bg-dark {background:#222}
 .bg-gray {background:#222 }
-.bg-black {background:#a06637}
+.bg-black {background:#6e1110}
 .bg-alt, .section-light-border {background:#F3F3F3;border-top:1px solid #ccc; border-bottom:1px solid #ccc;}
 .bg-light-grey, .bg-light-gray{background: #CCC;}
 
-.text-primary, .text-red {color:#1c476a;}
-.text-secondary, .text-bright-purple {color:#a06637}
+.text-primary, .text-red {color:#ad4c25;}
+.text-secondary, .text-bright-purple {color:#6e1110}
 .text-default, .text-gray {color:#353739}
 .text-black {color:#000}
 .text-white {color:#fff}
+.text-accent {color:#dc5126}
 
 
 
@@ -192,45 +176,44 @@ a:hover {color:#000}
 /*BUTTON*//*BUTTON*//*BUTTON*//*BUTTON*//*BUTTON*//*BUTTON*//*BUTTON*//*BUTTON*//*BUTTON*//*BUTTON*//*BUTTON*//*BUTTON*//*BUTTON*/
 
  
-.btn-primary {background:#1c476a; border:1px solid #1c476a; color:#FFF;}
-.btn-primary:hover  {background:#222; border-color:#222; color:#FFF;}
-.btn-secondary {background:#a06637; border:1px solid #a06637; color:#FFF}
-.btn-secondary:hover {background:#1c476a; border-color:#1c476a; color:#FFF}
-.btn-white {background:#FFF; border:1px solid #FFF; color:#1c476a }
-.btn-white:hover {background:#1c476a; border-color:#1c476a; color:#fff }
+.btn-primary {background:#ad4c25; border:1px solid #ad4c25; color:#FFF;}
+.btn-primary:hover  {background:#6e1110; border-color:#6e1110; color:#FFF;}
+.btn-secondary {background:#6e1110; border:1px solid #6e1110; color:#FFF}
+.btn-secondary:hover {background:#ad4c25; border-color:#ad4c25; color:#FFF}
+.btn-white {background:#FFF; border:1px solid #FFF; color:#ad4c25 }
+.btn-white:hover {background:#ad4c25; border-color:#ad4c25; color:#fff;}
 .btn-dark {background:#222; border: 1px solid #222; color:#FFF;}
-.btn-dark:hover {background: #1c476a; border-color: #1c476a; color: #222;}
-.btn-primary-open {border:2px solid #1c476a ;color:#1c476a;}
-.btn-primary-open:hover {background:#1c476a ;color:#FFF}
-.btn-white-open {border:2px solid #fff; background: transparent; color:#fff;}
-.btn-white-open:hover {border:2px solid #1c476a; background:#1c476a ;color:#FFF;}
+.btn-dark:hover {background: #ad4c25; border-color: #ad4c25; color: #222;}
+.btn-primary-open {border:1px solid #ad4c25 ;color:#fff;}
+.btn-primary-open:hover {background:#ad4c25 ;color:#FFF}
+.btn-white-open {border:1px solid #ad4c25; background: transparent; color:#ad4c25;}
+.btn-white-open:hover {border:1px solid #ad4c25; background:#ad4c25 ;color:#FFF;}
 .btn-dark-open {border: 2px solid #222; color:#222}
 .btn-dark-open:hover {background: #222; color: #FFF;}
 
 
 .btn, .btn-lg {
-  display: inline-block;
-  border-radius: 37px;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  padding-top: 24px;
-  padding-bottom: 21px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 2.5em 0;
-  line-height: normal;
-  text-align: center;
-}
+    display: inline-block;
+    border-radius: 32px;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 21px;
+    padding-bottom: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 2.5em 0;
+    line-height: normal; /* Adjust line height as necessary */
+    text-align: center; /* Ensure the text is aligned to the center */
+  }
 
 .btn {font-size:18px;}
-.btn-lg {font-size:20px;}
-.btn-sm {font-size:16px;margin-top:8px;margin-bottom:8px;padding:4px 8px;}
+.btn-lg {font-size:1.125em;}
+.btn-sm {font-size:.85em;margin-top:8px;margin-bottom:8px;padding:4px 8px;}
 
 
 /* Media query for screens up to 768px width (typical mobile screens) */
 @media (max-width: 768px) {
   .btn-primary, .btn-white, .btn-secondary, .btn-dark, .btn-dark-open, .btn-primary-open {
-    font-size: 16px; /* Smaller font size on mobile */
     width: 100%; /* Button takes the full width of its container */
     box-sizing: border-box; /* Ensures padding and border are included in the width */
     padding: 8px 8px; /* Adjusted padding on mobile */
@@ -387,7 +370,7 @@ a:focus{
 
 
 a:focus{
-  color: #1c476a;
+  color: #ad4c25;
 }
 
 
@@ -457,7 +440,7 @@ a:focus{
   }
 
 .hero h1 {
-  color:#1c476a;
+  color:#ad4c25;
   /*text-shadow: #000 1px 1px 5px;*/
   font-size:180px;
   font-weight:800;
@@ -468,7 +451,7 @@ a:focus{
 }
 .hero h2 {
   /*text-shadow: #000 1px 1px 5px;*/
-  color:#1c476a;
+  color:#ad4c25;
   font-family: 'Open Sans', serif;
   font-size:40px;
   font-weight:800;
@@ -534,9 +517,9 @@ a:focus{
 .testimonials-titlebox {
   margin:10px 0 60px 0;
   padding:32px 20px 16px;
-  background-color:#1c476a;
+  background-color:#ad4c25;
   border-radius:8px;
-  border:3px solid #1c476a;
+  border:3px solid #ad4c25;
   box-shadow: 0 0 40px rgba(0,0,0,0.22);
   text-align:center;
 }
@@ -640,84 +623,6 @@ a:focus{
   border-bottom: 0;
 }
 
-/* ### Banner Section ### */
-.banner{
-  background-size:cover;
-  background-repeat: no-repeat;
-  position:relative;
-}
-.banner-filter {
-  height:100%;
-  width:100%;
-  background-color:rgba(0,0,0,.5);
-  padding:70px;
-}
-/* Media query for mobile devices */
-@media (max-width: 768px) {
-    .banner-filter {
-      padding: 0px;
-    }
-  }
-
-.banner h1 {
-  color:#fff;
-  font-size:64px;
-  font-weight:800;
-  padding:0;
-  margin:60px 0 10px 0;
-}
-@media (max-width: 768px) { /* Adjust the breakpoint as needed for your mobile devices */
-    .banner h1 {
-      font-size: 40px;
-    }
-  }
-
-
-
-  .banner p {
-    font-size:18px;
-    color:rgba(255,255,255,1);
-    font-style:italic;
-    margin-bottom: 50px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text shadow */
-  }
-  /* By default, hide mobile text and show desktop text */
-  .banner p .mobile-text {
-      display: none;
-    }
-    .banner p .desktop-text {
-      display: inline;
-    }
-
-    /* Media query for screens up to 768px width (typical mobile screens) */
-    @media (max-width: 768px) {
-        .banner p .mobile-text {
-          display: inline; /* Show mobile text */
-        }
-        .banner p .desktop-text {
-          display: none; /* Hide desktop text */
-        }
-    }
-
-/* Default styles for .banner h1 and .banner p */
-.banner h1,
-.banner p {
-    max-width: 60%;
-}
-
-/* Media query with a unique class selector */
-@media (max-width: 767px) {
-    .banner h1,
-    .banner p {
-        max-width: 100%;
-        padding: 20px;
-    }
-}
-
-
-
-
-
 div.icon-list {margin-top:15px;}
 .icon-list img{ width:35px;float:left; margin-top: 15px; padding-right: 5px;}
 .icon-list h3 {margin-left:42px;margin-bottom:5px;margin-top:0;}
@@ -753,7 +658,7 @@ h4 span {
 
 
   .cta-primary {
-    background:#1c476a;
+    background:#ad4c25;
     color:#fff !important;
     padding: 12px 0;
   }
@@ -839,7 +744,7 @@ h4 span {
   margin:40px 0;
   text-align:center;
   font-size:1.2em;
-  font-family: 'Open Sans', sans-serif;color:#666666;
+  font-family: "Montserrat", sans-serif;color:#666666;
 }
 .tbl-finance th {
   vertical-align: bottom;
@@ -1016,7 +921,7 @@ h4 span {
   color:rgba(255,255,255,1);
 }
 .footer-links a:hover {
-  color:#1c476a;
+  color:#ad4c25;
 }
 
 .footer-links-2.home-hover, .footer-links-2.home-hover svg, .footer-links-2.home-hover .text-white {
@@ -1024,16 +929,16 @@ h4 span {
 }
 
 .footer-links-2.home-hover:hover {
-  color: #1c476a !important;
+  color: #ad4c25 !important;
 }
 
 .footer-links-2.home-hover:hover svg {
-  fill: #1c476a !important;
-  stroke: #1c476a !important;
+  fill: #ad4c25 !important;
+  stroke: #ad4c25 !important;
 }
 
 .footer-links-2.home-hover:hover .text-white {
-  color: #1c476a !important;
+  color: #ad4c25 !important;
 }
 
   /*footer HOME FA ICON HOVER */
@@ -1046,7 +951,7 @@ h4 span {
   .footer-links-2.home-hover a:hover,
   .footer-links-2.home-hover a:hover i,
   .footer-links-2.home-hover a:hover .text-white {
-  color: #1c476a !important;
+  color: #ad4c25 !important;
 }
 
 
@@ -1070,7 +975,7 @@ h4 span {
   padding-left: 8px;
   padding-right: 8px;
   border-radius:50%;
-  background:#1c476a;
+  background:#ad4c25;
   color:#222;
   margin-right:12px;
   transition: all 0.7s ease-out;
@@ -1274,11 +1179,6 @@ input[type="search"] {
 
 /* Responsive Css */
 @media all and (min-width: 1024px) {
-  .offcanvas,
-  .body-inactive,
-  .toggle {
-    display: none !important;
-  }
   .navigation{
   /* display:inline-block;  REDUNDANT CHRIS KEEPING JUST INCASE LOL */
   float:right;
@@ -1363,8 +1263,8 @@ input[type="search"] {
   border:1px solid RGBA(255,255,255,.2);
   height:40px;
 }
-.btn-special-1 {border:1px solid #1c476a ;color:#1c476a;padding:4px 6px;font-size:12px;margin-left:70px;}
-  .btn-special-1:hover {background:#1c476a ;color:#FFF}
+.btn-special-1 {border:1px solid #ad4c25 ;color:#ad4c25;padding:4px 6px;font-size:12px;margin-left:70px;}
+  .btn-special-1:hover {background:#ad4c25 ;color:#FFF}
   .icon-blocks img {
     float:left;
   }
@@ -1576,7 +1476,7 @@ p.text-normal {
 .stain-colors-collection .panel  .panel-heading .panel-title a{
     display: block;
     padding: 20px 40px 20px 20px;
-    background-color: #1c476a;
+    background-color: #ad4c25;
     color: #fff;
     position: relative;
     font-size: 20px;
@@ -1773,7 +1673,7 @@ p.text-normal {
 
 
       .footer-link-2:hover {
-        color: #007CBB !important;
+        color: #ad4c25 !important;
       }
 
       /* Font Awesome Icon that is Dynamically made when target="_blank" is found*/
@@ -1821,11 +1721,11 @@ p.text-normal {
 }
 
 .ifa-primary-bg {
-  color: #1c476a !important;
+  color: #ad4c25 !important;
 }
 
 .ifa-secondary-bg {
-  color: #a06637 !important;
+  color: #6e1110 !important;
 }
 
 .ifa-rounded-corner {
@@ -1859,7 +1759,7 @@ p.text-normal {
 
 .ifa-primary-bg-fill {
   color: #fff;
-  background-color: #1c476a !important;
+  background-color: #ad4c25 !important;
 }
 
 .ifa-green-bg-fill {
@@ -1869,7 +1769,7 @@ p.text-normal {
 
 .ifa-secondary-bg-fill {
   color: #fff;
-  background-color: #a06637 !important;
+  background-color: #6e1110 !important;
 }
 
 .ifa-test {
@@ -1917,13 +1817,6 @@ p.text-normal {
   font-size: 2.6rem !important;
 }
 
-.ifa-green-bg-fill {
-  color: #A2A2A2;
-  background-color: #515151 !important;
-}
-.ifa-green-bg-fill:hover {
-  color: #FFF;
-}
 
 .footer-1-text {
   color: rgba(255, 255, 255, 0.5);
@@ -2010,7 +1903,7 @@ p.text-normal {
 /*FOOTER 2*//*FOOTER 2*//*FOOTER 2*//*FOOTER 2*//*FOOTER 2*//*FOOTER 2*/
 
 .bg-footer {
-  background-color: #547CB5;
+  background-color: #ad4c25;
 }
 
 .ifa-square {
@@ -2035,7 +1928,7 @@ p.text-normal {
   background-color: #7CC6F2;
 }
 .ifa-blue-bg-fill:hover {
-  color: #547CB5;
+  color: #ad4c25;
 }
 
 .footer-2-icon {
@@ -2061,7 +1954,7 @@ p.text-normal {
 }
 
 .footer-2-link:hover {
-  color: #90C4EE;
+  color: #ad4c25;
 }
 
 .footer-2-text {
@@ -2122,7 +2015,7 @@ p.text-normal {
 }
 
 .footer-2-text-link:hover {
-  color: #90C4EE;
+  color: #ad4c25;
 }
 
 .footer-2-font {
@@ -2181,7 +2074,7 @@ p.text-normal {
 }
 
 .footer-3-link:hover {
-  color: #90C4EE;
+  color: #ad4c25;
 }
 
 .map-iframe-3 {
@@ -2214,7 +2107,7 @@ p.text-normal {
 }
 
 .footer-3-text-link:hover {
-  color: #90C4EE;
+  color: #ad4c25;
 }
 
 .footer-3-font {
@@ -2227,7 +2120,7 @@ p.text-normal {
 
 
 .bg-dark-blue {
-  background-color: #547CB5;
+  background-color: #ad4c25;
 }
 .bg-light-blue {
   background-color: #7CC6F2;
@@ -2237,7 +2130,7 @@ p.text-normal {
   margin-top: -4%;
   margin-bottom: -120px;
   padding-bottom: 20px;
-  background-color: #547CB5;
+  background-color: #ad4c25;
 
 }
 
@@ -2381,7 +2274,7 @@ p.text-normal {
   }
 
   .footer-4-link:hover {
-    color: #547CB5;
+    color: #ad4c25;
   }
 
   .footer-4-social {
@@ -2398,7 +2291,7 @@ p.text-normal {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #547CB5;
+    background-color: #ad4c25;
     color: #FFF;
 }
 
@@ -2407,7 +2300,7 @@ p.text-normal {
 }
 
 .ifa-circle:hover {
-  color: #547CB5;
+  color: #ad4c25;
   background-color: #fff;
 }
 
@@ -2433,7 +2326,7 @@ p.text-normal {
 
 
 .footer-4-text-link-home:hover {
-  color: #547CB5;
+  color: #ad4c25;
 }
 
 
@@ -2446,7 +2339,7 @@ p.text-normal {
 }
 
 .footer-4-text-link:hover {
-  color: #547CB5;
+  color: #ad4c25;
 }
 
 
@@ -2466,7 +2359,7 @@ p.text-normal {
   }
 
   .footer-4-link-2 a:hover {
-    color: #547CB5;
+    color: #ad4c25;
   }
 }
 
@@ -2519,7 +2412,7 @@ p.text-normal {
 }
 
 .footer-5-link:hover {
-  color: #90C4EE;
+  color: #ad4c25;
 }
 
 .fa-icon {
@@ -2563,7 +2456,7 @@ p.text-normal {
 }
 
 .footer-5-text-link:hover {
-  color: #90C4EE;
+  color: #ad4c25;
 }
 
 .footer-5-font {
@@ -2746,7 +2639,7 @@ p.text-normal {
 }
 
 .search-button:hover {
-  background-color: #007CBB;
+  background-color: #ad4c25;
 }
 
 #search-bar {
@@ -2785,5 +2678,7 @@ p.text-normal {
 }
 
 
-
+.bg-tfg-grey {
+  background: #f3f3f3;
+}
 
