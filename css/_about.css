@@ -1,22 +1,11 @@
 /* start of about sequoia banner */
-
-.sequoia-values-banner {
-  min-height: 90vh;
-  width: 100%;
+.sequoia-about-banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
 }
 
-.sa .position-absolute {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-/* end of about sequoia banner */
-
-.sequoia-values-banner {
- min-height: 80vh;
-}
-.sa h3:before {
+.sequoia-about-banner h1:before {
   content: "";
   display: block;
   width: 84px;
@@ -28,8 +17,13 @@
   top: -20px;
   left: 50%;
   transform: translateX(-50%);
+
 }
-h4:before {
+ /* end of about sequoia banner */
+
+
+/* start of  sequoia about */
+.sequoia-about .ss-content-title h2:before {
   content: "";
   display: block;
   width: 84px;
@@ -38,21 +32,81 @@ h4:before {
   margin-bottom: 12px;
   border-radius: 24px;
 }
-.image-wrapper-top img {
+.sequoia-about .image-wrapper-top img {
   border-top-left-radius: 50%;
 }
-.image-wrapper-bottom img {
-  border-bottom-right-radius: 50%;
+/* end of about sequoia about */
+
+
+/* start of  sequoia story banner */
+.sequoia-story-banner{
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
 }
-
-
-.height-90vh {
-  height: 60vh;
+.sequoia-story-banner h2:before {
+  content: "";
+  display: block;
+  width: 84px;
+  height: 6px;
+  background-color: #ad4c25;
+  margin-bottom: 12px;
+  border-radius: 24px;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
+/* end of  sequoia story banner */
 
-/* .sequoia values css */
 
-.values-rectangle-border {
+/* start of  sequoia story */
+.sequoia-story .ss-content-title h2:before {
+  content: "";
+  display: block;
+  width: 84px;
+  height: 6px;
+  background-color: #ad4c25;
+  margin-bottom: 12px;
+  border-radius: 24px;
+}
+.sequoia-story .image-wrapper-bottom img {
+  border-top-right-radius: 50%;
+}
+/* end of  sequoia story */
+
+/*start of sequoia-process-banner */
+.sequoia-process-banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+.sequoia-process-banner h2:before {
+  content: "";
+  display: block;
+  width: 84px;
+  height: 6px;
+  background-color: #ad4c25;
+  margin-bottom: 12px;
+  border-radius: 24px;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/*end of sequoia-process-banner */
+
+
+/*start of sequoia-values-banner */
+.sequoia-values-banner {
+    min-height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+  }
+
+  .sequoia-values-banner .values-rectangle-border {
   border: 4px solid white;
   border-right: none;
   width: 85%;
@@ -67,7 +121,7 @@ h4:before {
   z-index: 2;
   padding: 10px 0 10px 10px;
 }
-.values-rectangle {
+.sequoia-values-banner .values-rectangle {
   background-color: #ad4c25;
   opacity: 0.8;
   width: 100%;
@@ -76,16 +130,15 @@ h4:before {
   border-bottom-left-radius: 30% 100%;
   padding: 0px 40px 0 110px;
 }
-
-.values-circle {
-  background: url("../images/man.jpg");
+.sequoia-values-banner .values-circle {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover !important;
+   background-position: left center;
   height: 182px;
   width: 186px;
   border-radius: 50%;
 }
-.values-circle-border {
+.sequoia-values-banner .values-circle-border {
   height: 210px;
   width: 210px;
   border-radius: 50%;
@@ -100,20 +153,31 @@ h4:before {
   padding: 10px;
 }
 
-/* .sequoia value css end */
+/*end of sequoia-values-banner */
 
-.people-name {
-  font-size: 3rem;
-  font-weight: 600;
-}
-.people-title {
-  font-size: 2rem;
-  font-weight: 600;
-  padding-bottom: 10px;
-  color: #ad4c25;
-}
-.people-name::before {
+
+
+
+
+
+
+/* start of sequoia team css */
+.sequoia-team h2:before {
   content: "";
+  display: block;
+  width: 84px;
+  height: 6px;
+  background-color: #ad4c25;
+  margin-bottom: 12px;
+  border-radius: 24px;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+.sequoia-team h3::before {
+ content: "";
   display: block;
   width: 60px;
   height: 4px;
@@ -122,61 +186,67 @@ h4:before {
   left: 50%;
   transform: translateX(-50%);
   margin: -5px 0;
-  border-radius: 24px;
+  border-radius: 24px;}
+.sequoia-team h4 {
+  color: #ad4c25;
 }
-.sequoia-team-img {
+.sequoia-team .team-wrapper .sequoia-team-img {
   position: relative;
   overflow: hidden;
 }
 
-.sequoia-team-img img {
+.sequoia-team .team-wrapper .sequoia-team-img img {
   width: 100%;
   height: auto;
   display: block;
   transition: opacity 0.4s ease;
 }
 
-.img-hover {
+.sequoia-team .team-wrapper .img-hover {
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
 }
 
-.sequoia-team-img:hover .img-hover {
+.sequoia-team .team-wrapper .sequoia-team-img:hover .img-hover {
   opacity: 1;
 }
 
-.sequoia-team-img:hover .img-front {
+.sequoia-team .team-wrapper .sequoia-team-img:hover .img-front {
   opacity: 0;
 }
-.team-wrapper:hover .people-name {
+.sequoia-team .team-wrapper:hover h3 {
   color: #6e1011;
 }
-.team-wrapper:hover .people-title {
+.sequoia-team .team-wrapper:hover h4 {
   color: #6e1011;
 }
-.team-wrapper:hover .people-name::before {
+.sequoia-team .team-wrapper:hover h3::before {
   background-color: #6e1011;
 }
+
+/* end of sequoia team css */
+
+
 
 /* Media query for screens from 426px width (typical mobile screens) */
 @media (max-width: 426px) {
  
 
-  .values-circle {
+  .sequoia-values-banner .values-circle  {
     width: 139px;
     height: 139px;
   }
 
-  .values-circle-border {
+  .sequoia-values-banner .values-circle-border{
     width: 165px;
     height: 165px;
     top: 13%;
     left: 49%;
   }
 
-  .values-rectangle {
+  .sequoia-values-banner .values-rectangle {
     height: 100%;
     border-top-left-radius: 196px;
     border-top-right-radius: 200px;
@@ -184,7 +254,7 @@ h4:before {
     padding: 30px 15px 10px 15px;
 
   }
-  .values-rectangle-border {
+  .sequoia-values-banner .values-rectangle-border {
     border-top-left-radius: 196px;
     border-top-right-radius: 200px;
     border-bottom-left-radius: 0%;
@@ -195,9 +265,10 @@ h4:before {
     height: 87%;
     width: 89%;
   }
-  .values-rectangle h2, p{
-    text-align: center;
-  }
+  .sequoia-values-banner .values-rectangle h2 {
+text-align: center;  }
+  
+
   .sequoia-values-banner {
     min-height: 120vh;
   }
