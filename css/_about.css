@@ -2,11 +2,6 @@
 
 .sequoia-about-banner,
 .sequoia-values-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/sequoia-about-banner.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left center;
   min-height: 90vh;
   width: 100%;
 }
@@ -62,11 +57,6 @@ h4:before {
 
 .sequoia-story-banner,
 .sequoia-process-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/sequoia-story-banner.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left center;
   min-height: 70vh;
   width: 100%;
 }
@@ -141,7 +131,7 @@ h4:before {
   font-size: 2.5rem;
   font-weight: 500;
 }
-.sequoia-people-rectangle {
+.sequoia-team-rectangle {
   height: 400px;
   width: 90%;
   padding-left: 10%;
@@ -149,7 +139,7 @@ h4:before {
   border-top-left-radius: 200px;
   position: relative;
 }
-.sequoia-people-rectangle-border {
+.sequoia-team-rectangle-border {
   height: 410px;
   width: 104%;
   background: transparent;
@@ -211,38 +201,43 @@ h4:before {
     min-height: 110vh;
   }
 
-  .values-circle-border,
   .values-circle {
-    display: none;
+    top: 21%;
+    left: 50%;
+  }
+  
+  .values-circle-border {
+    top: 21%;
+    left: 50%;
   }
 
   .values-rectangle {
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
     border-bottom-left-radius: 0%;
-    padding: 20px 6% 20px 6% !important;
-    top: 51%;
+    padding: 50px 6% 20px 6% !important;
+    top: 60%;
     left: 7.5%;
-    height: fit-content;
     text-align: center;
-    height: 95%;
+    height: 76%;
     overflow: hidden;
   }
   .values-rectangle-border {
     border-top-left-radius: 196px;
     border-top-right-radius: 200px;
     border-bottom-left-radius: 0%;
-    top: 51%;
+    top: 60%;
     left: 5.5%;
-    height: 97%;
-    width: 90%;
+    height: 78%;
+    width: 89%;
   }
   .sequoia-values-banner {
     min-height: 120vh;
   }
-  .position-absolute{
+  .position-absolute {
     width: 90%;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -255,5 +250,8 @@ h4:before {
   .ss-content-title {
     padding-left: 36px !important;
     padding-right: 36px !important;
+  }
+  .sequoia-team-rectangle-wrapper {
+    padding-left: 30px;
   }
 }

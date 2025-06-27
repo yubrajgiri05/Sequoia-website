@@ -46,8 +46,15 @@
 
 <body>
   <main>
-    <section class="sequoia-about-banner position-relative sa">
-      <div class="container">
+    <section
+  class="sequoia-about-banner position-relative sa"
+  style="
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/sequoia-about-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+  "
+>      <div class="container">
         <div class="position-absolute text-center">
                <h3 class="text-white position-relative ">
                 About Sequoia Forest Products
@@ -82,7 +89,15 @@
       </div>
     </section>
 
-    <section class="sequoia-story-banner position-relative sa">
+    <section 
+    class="sequoia-story-banner position-relative sa"
+     style="
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/sequoia-story-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+  "
+    >
       <div class="container">
            <div class="position-absolute text-center">
              <h3 class="text-white position-relative">
@@ -97,7 +112,7 @@
 
 
      <section class="sequoia-story ss">
-      <div class="row  gap-2">
+      <div class="row">
         <div class="col-md-6">
           <div class="image-wrapper-bottom">
             <img src="images/man.jpg" alt="man"  style="width: 100%; height: auto;">
@@ -120,7 +135,15 @@
       </div>
     </section>
 
-    <section class="sequoia-process-banner position-relative sa">
+    <section 
+      class="sequoia-process-banner position-relative sa"
+      style="
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/sequoia-about-banner.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: left center;
+  "
+      >
       <div class="container">
            <div class="position-absolute text-center">
              <h3 class="text-white position-relative">
@@ -137,7 +160,15 @@
     <section class="sequoia-process height-90vh">
     </section>
     
-    <section class="sequoia-values-banner position-relative">
+    <section 
+    class="sequoia-values-banner position-relative"
+     style="
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/sequoia-about-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+  "
+    >
       <div class="container">
         <div class="values-rectangle z-1">
             <div class="text-white font-lg">Sequoia Values</div>
@@ -153,16 +184,17 @@
       </div>
     </section>
 
-    <section class="sequoia-people pt-lg sa">
+    <section class="sequoia-team pt-lg sa">
         <div class="container">
-          <h3 class="text-black text-center">
+          <h3 class="text-black text-center position-relative">
             Meet the People Behind Sequoia Forest Products
           </h3>
           <p class="text-secondary font-sm text-center pb-md">Our leadership team combines hands-on industry knowledge with a passion for excellence:</p>
-          <div class="row">
-            <div class="col-md-4 col-sm-6">
-              <div class="sequoia-people-rectangle">
-                <div class="sequoia-people-rectangle-border"></div>
+          <div class="row ">
+            <div class="col-md-4 col-sm-6 ">
+             <div class="sequoia-team-rectangle-wrapper">
+               <div class="sequoia-team-rectangle">
+                <div class="sequoia-team-rectangle-border"></div>
                 <div class="people-img-wrapper">
                   <img src="images/transparent.png" alt="people">
                 </div>
@@ -174,33 +206,38 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               
              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="sequoia-people-rectangle odd-color">
-                <div class="sequoia-people-rectangle-border odd-border-color"></div>
-                <div class="people-img-wrapper">
-                  <img src="images/transparent.png" alt="people">
-                </div>
-              </div>
-              <div class="text-center ptb-md">
-              <div class="people-name">John Doe</div>
-              <p class="text-secondary font-sm ">title</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              
              </div>
             </div>
             <div class="col-md-4 col-sm-6">
-              <div class="sequoia-people-rectangle">
-                <div class="sequoia-people-rectangle-border"></div>
-                <div class="people-img-wrapper">
-                  <img src="images/transparent.png" alt="people">
-                </div>
+              <div class="sequoia-team-rectangle-wrapper">
+                  <div class="sequoia-team-rectangle odd-color">
+                    <div class="sequoia-team-rectangle-border odd-border-color"></div>
+                    <div class="people-img-wrapper">
+                      <img src="images/transparent.png" alt="people">
+                    </div>
+                  </div>
+                  <div class="text-center ptb-md">
+                  <div class="people-name">John Doe</div>
+                  <p class="text-secondary font-sm ">title</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  
+                  </div>
               </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="sequoia-team-rectangle-wrapper">
+                <div class="sequoia-team-rectangle">
+                 <div class="sequoia-team-rectangle-border"></div>
+                  <div class="people-img-wrapper">
+                  <img src="images/transparent.png" alt="people">
+                  </div>
+                </div>
               <div class="text-center ptb-md">
               <div class="people-name">John Doe</div>
               <p class="text-secondary font-sm">title</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
              </div>
+           </div>
             </div>
           </div>
         </div>
